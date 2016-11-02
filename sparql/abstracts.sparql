@@ -1,0 +1,6 @@
+PREFIX dbp-owl: <http://dbpedia.org/ontology/>
+
+
+select distinct ?abstract where {{
+    <{0}> dbp-owl:abstract ?abstract.
+}}

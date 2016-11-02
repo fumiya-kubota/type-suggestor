@@ -1,0 +1,6 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbp-owl: <http://dbpedia.org/ontology/>
+
+select distinct ?person where {
+    ?person rdf:type  dbp-owl:Person.
+}
